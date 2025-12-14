@@ -35,7 +35,7 @@ jobs:
     # 5️⃣ Testing
     - name: Run tests
       run: |
-        pytest
+        python -m pytest
 
     # 6️⃣ Login to Docker Hub
     - name: Login to Docker Hub
